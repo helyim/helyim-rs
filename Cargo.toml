@@ -1,0 +1,21 @@
+[package]
+name = "helyim"
+version = "0.1.0"
+authors = ["iamazy <1448588084@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-stream = "0.3"
+atoi = "0.4"
+bytes = "1"
+structopt = "0.3"
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
+tracing-futures = { version = "0.2" }
+tracing-subscriber = "0.2"
+regex = "1"
+once_cell = "1"
+bstr = "0.2"
+rand = "0.8"
